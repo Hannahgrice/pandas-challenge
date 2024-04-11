@@ -1,2 +1,3 @@
 # pandas-challenge
 Module 4 challenge
+# I kept receiving large errors in Dataframes that could not allow me to decode the message when converting the student budget columns to numeric. So I consulted chatgpt and the expert learning AI assistants and it told me to set the observed to True to ensure that pandas consider only the observed categories within each group. Therefore I adjusted my code based on this DF structure. To silence my errors that did not have a specific error I took these points and set observed to Ture in my group.by calls so it would tell pandas to consider only observed categories within each group. Otherwise this module challenge was a fun one and I enjoyed looking at these statistics. 
